@@ -1,0 +1,55 @@
+{
+  "id": "2023/0393(COD)",
+  "slug": "2023-0393-cod",
+  "category": "random",
+  "why": "Random draw from the Module 1 scope",
+  "captured": "2026-10-19",
+  "expected": {
+    "ep_events": 12,
+    "ep_event_types": {
+      "COMMITTEE_ADOPTING_REPORT": 1,
+      "COMMITTEE_APPROVE_PROVISIONAL_AGREEMENT": 1,
+      "COMMITTEE_TABLING_REPORT": 1,
+      "PLENARY_AMEND_PROPOSAL": 1,
+      "PLENARY_DEBATE": 1,
+      "PLENARY_ENDORSE_COMMITTEE_INTERINSTITUTIONAL_NEGOTIATIONS": 1,
+      "PLENARY_VOTE": 1,
+      "PLENARY_VOTE_RESULTS": 1,
+      "PUBLICATION_OFFICIAL_JOURNAL": 1,
+      "REFERRAL": 1,
+      "SIGNATURE": 1,
+      "TABLING_PLENARY": 1
+    },
+    "ep_first_event": {
+      "date": "2024-01-18",
+      "type": "REFERRAL"
+    },
+    "ep_last_event": {
+      "date": "2024-11-14",
+      "type": "PUBLICATION_OFFICIAL_JOURNAL"
+    },
+    "ep_current_stage": "RDG1",
+    "ep_lead_committees": [
+      "LIBE",
+      "EMPL"
+    ],
+    "ep_documents": [
+      "A-9-2024-0059",
+      "C-10-2024-0142",
+      "CJ47-PR-758218",
+      "SP-2024-394-TA-9-2024-0340",
+      "TA-9-2024-0340"
+    ],
+    "trilogue_dates": [],
+    "cellar": {
+      "dossier_found": true,
+      "produced_act": {
+        "celex": "32024L2842",
+        "eli": "http://data.europa.eu/eli/dir/2024/2842/oj",
+        "entry_into_force_values": [
+          "2024-12-04"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id": "2025/0847(COD)",
+  "slug": "2025-0847-cod",
+  "category": "random",
+  "why": "Random draw from the Module 1 scope",
+  "captured": "2026-10-19",
+  "expected": {
+    "ep_events": 10,
+    "ep_event_types": {
+      "COMMITTEE_ADOPTING_REPORT": 1,
+      "COMMITTEE_TABLING_AMENDMENT": 4,
+      "COMMITTEE_TABLING_REPORT": 1,
+      "INTERINSTITUTIONAL_NEGOTIATION": 1,
+      "PLENARY_ENDORSE_COMMITTEE_INTERINSTITUTIONAL_NEGOTIATIONS": 1,
+      "REFERRAL": 1,
+      "TABLING_PLENARY": 1
+    },
+    "ep_first_event": {
+      "date": "2026-01-19",
+      "type": "REFERRAL"
+    },
+    "ep_last_event": {
+      "date": "2026-07-16",
+      "type": "INTERINSTITUTIONAL_NEGOTIATION"
+    },
+    "ep_current_stage": "RDG1",
+    "ep_lead_committees": [
+      "SEDE",
+      "TRAN"
+    ],
+    "ep_documents": [
+      "A-10-2026-0176",
+      "CJ57-PR-784420"
+    ],
+    "trilogue_dates": [
+      "2026-07-16"
+    ],
+    "cellar": {
+      "dossier_found": true,
+      "produced_act": null
+    }
+  }
+}

@@ -1,0 +1,481 @@
+{
+  "$schema": "https://regesta.io/schema/v0.1/procedure.schema.json",
+  "schema_version": "0.1.0",
+  "id": "2025/0847(COD)",
+  "slug": "2025-0847-cod",
+  "type": "COD",
+  "title": "Framework of measures to facilitate the transport of military equipment, goods and personnel across the Union",
+  "status": "ongoing",
+  "institution_leads": {
+    "commission_dg": null,
+    "ep_committees": [
+      "SEDE",
+      "TRAN"
+    ]
+  },
+  "provenance": {
+    "status": "official"
+  },
+  "sources": [
+    {
+      "source": "ep_api",
+      "url": "https://data.europarl.europa.eu/api/v2/procedures/2025-0847?format=application%2Fld%2Bjson",
+      "ref": "eli/dl/proc/2025-0847",
+      "retrieved": "2026-10-19T18:18:38Z",
+      "license": "CC-BY-4.0",
+      "legal_basis": "European Parliament Bureau decision of 16.12.2024 on open data, OJ C/2025/341, Art. 4"
+    }
+  ],
+  "license": "CC-BY-4.0",
+  "modified": false,
+  "valid_from": "manual-2026-10-19",
+  "valid_to": null,
+  "identifiers": [
+    {
+      "alias_type": "ep_proc",
+      "alias": "2025/0847(COD)",
+      "provenance": {
+        "status": "official"
+      },
+      "sources": [
+        {
+          "source": "ep_api",
+          "url": "https://data.europarl.europa.eu/api/v2/procedures/2025-0847?format=application%2Fld%2Bjson",
+          "ref": "eli/dl/proc/2025-0847",
+          "retrieved": "2026-10-19T18:18:38Z",
+          "license": "CC-BY-4.0",
+          "legal_basis": "European Parliament Bureau decision of 16.12.2024 on open data, OJ C/2025/341, Art. 4"
+        }
+      ],
+      "license": "CC-BY-4.0",
+      "modified": false,
+      "valid_from": "manual-2026-10-19",
+      "valid_to": null
+    },
+    {
+      "alias_type": "ep_proc_id",
+      "alias": "2025-0847",
+      "provenance": {
+        "status": "official"
+      },
+      "sources": [
+        {
+          "source": "ep_api",
+          "url": "https://data.europarl.europa.eu/api/v2/procedures/2025-0847?format=application%2Fld%2Bjson",
+          "ref": "eli/dl/proc/2025-0847",
+          "retrieved": "2026-10-19T18:18:38Z",
+          "license": "CC-BY-4.0",
+          "legal_basis": "European Parliament Bureau decision of 16.12.2024 on open data, OJ C/2025/341, Art. 4"
+        }
+      ],
+      "license": "CC-BY-4.0",
+      "modified": false,
+      "valid_from": "manual-2026-10-19",
+      "valid_to": null
+    },
+    {
+      "alias_type": "ep_doc",
+      "alias": "A-10-2026-0176",
+      "provenance": {
+        "status": "official"
+      },
+      "sources": [
+        {
+          "source": "ep_api",
+          "url": "https://data.europarl.europa.eu/api/v2/procedures/2025-0847?format=application%2Fld%2Bjson",
+          "ref": "eli/dl/doc/A-10-2026-0176",
+          "retrieved": "2026-10-19T18:18:38Z",
+          "license": "CC-BY-4.0",
+          "legal_basis": "European Parliament Bureau decision of 16.12.2024 on open data, OJ C/2025/341, Art. 4"
+        }
+      ],
+      "license": "CC-BY-4.0",
+      "modified": false,
+      "valid_from": "manual-2026-10-19",
+      "valid_to": null
+    },
+    {
+      "alias_type": "ep_doc",
+      "alias": "CJ57-PR-784420",
+      "provenance": {
+        "status": "official"
+      },
+      "sources": [
+        {
+          "source": "ep_api",
+          "url": "https://data.europarl.europa.eu/api/v2/procedures/2025-0847?format=application%2Fld%2Bjson",
+          "ref": "eli/dl/doc/CJ57-PR-784420",
+          "retrieved": "2026-10-19T18:18:38Z",
+          "license": "CC-BY-4.0",
+          "legal_basis": "European Parliament Bureau decision of 16.12.2024 on open data, OJ C/2025/341, Art. 4"
+        }
+      ],
+      "license": "CC-BY-4.0",
+      "modified": false,
+      "valid_from": "manual-2026-10-19",
+      "valid_to": null
+    },
+    {
+      "alias_type": "cellar_proc",
+      "alias": "2025/0847/COD",
+      "provenance": {
+        "status": "official"
+      },
+      "sources": [
+        {
+          "source": "cellar",
+          "url": "https://publications.europa.eu/webapi/rdf/sparql",
+          "ref": "2025/0847/COD",
+          "retrieved": "2026-10-19T18:23:10Z",
+          "license": "CC0-1.0",
+          "legal_basis": "EUR-Lex legal notice: metadata dedicated to the public domain (CC0 1.0)"
+        }
+      ],
+      "license": "CC-BY-4.0",
+      "modified": false,
+      "valid_from": "manual-2026-10-19",
+      "valid_to": null
+    }
+  ],
+  "steps": [
+    {
+      "id": "2025-0847-ANPRO-2026-01-19",
+      "institution": "parliament",
+      "kind": "referral",
+      "source_kind": "REFERRAL",
+      "date": "2026-01-19",
+      "date_precision": "day",
+      "provenance": {
+        "status": "official"
+      },
+      "sources": [
+        {
+          "source": "ep_api",
+          "url": "https://data.europarl.europa.eu/api/v2/procedures/2025-0847?format=application%2Fld%2Bjson",
+          "ref": "eli/dl/event/2025-0847-ANPRO-2026-01-19",
+          "retrieved": "2026-10-19T18:18:38Z",
+          "license": "CC-BY-4.0",
+          "legal_basis": "European Parliament Bureau decision of 16.12.2024 on open data, OJ C/2025/341, Art. 4"
+        }
+      ],
+      "license": "CC-BY-4.0",
+      "modified": false,
+      "valid_from": "manual-2026-10-19",
+      "valid_to": null
+    },
+    {
+      "id": "CJ57-PR-784420-DEPOT-2026-03-17",
+      "institution": "parliament",
+      "kind": "committee_report_tabled",
+      "source_kind": "COMMITTEE_TABLING_REPORT",
+      "date": "2026-03-17",
+      "date_precision": "day",
+      "provenance": {
+        "status": "official"
+      },
+      "sources": [
+        {
+          "source": "ep_api",
+          "url": "https://data.europarl.europa.eu/api/v2/procedures/2025-0847?format=application%2Fld%2Bjson",
+          "ref": "eli/dl/event/CJ57-PR-784420-DEPOT-2026-03-17",
+          "retrieved": "2026-10-19T18:18:38Z",
+          "license": "CC-BY-4.0",
+          "legal_basis": "European Parliament Bureau decision of 16.12.2024 on open data, OJ C/2025/341, Art. 4"
+        }
+      ],
+      "license": "CC-BY-4.0",
+      "modified": false,
+      "valid_from": "manual-2026-10-19",
+      "valid_to": null,
+      "documents": [
+        "CJ57-PR-784420"
+      ]
+    },
+    {
+      "id": "CJ57-AM-786975-DEPOT-2026-04-10",
+      "institution": "parliament",
+      "kind": "committee_tabling_amendment",
+      "source_kind": "COMMITTEE_TABLING_AMENDMENT",
+      "date": "2026-04-10",
+      "date_precision": "day",
+      "provenance": {
+        "status": "official"
+      },
+      "sources": [
+        {
+          "source": "ep_api",
+          "url": "https://data.europarl.europa.eu/api/v2/procedures/2025-0847?format=application%2Fld%2Bjson",
+          "ref": "eli/dl/event/CJ57-AM-786975-DEPOT-2026-04-10",
+          "retrieved": "2026-10-19T18:18:38Z",
+          "license": "CC-BY-4.0",
+          "legal_basis": "European Parliament Bureau decision of 16.12.2024 on open data, OJ C/2025/341, Art. 4"
+        }
+      ],
+      "license": "CC-BY-4.0",
+      "modified": false,
+      "valid_from": "manual-2026-10-19",
+      "valid_to": null,
+      "documents": [
+        "CJ57-AM-786975"
+      ]
+    },
+    {
+      "id": "CJ57-AM-786976-DEPOT-2026-04-10",
+      "institution": "parliament",
+      "kind": "committee_tabling_amendment",
+      "source_kind": "COMMITTEE_TABLING_AMENDMENT",
+      "date": "2026-04-10",
+      "date_precision": "day",
+      "provenance": {
+        "status": "official"
+      },
+      "sources": [
+        {
+          "source": "ep_api",
+          "url": "https://data.europarl.europa.eu/api/v2/procedures/2025-0847?format=application%2Fld%2Bjson",
+          "ref": "eli/dl/event/CJ57-AM-786976-DEPOT-2026-04-10",
+          "retrieved": "2026-10-19T18:18:38Z",
+          "license": "CC-BY-4.0",
+          "legal_basis": "European Parliament Bureau decision of 16.12.2024 on open data, OJ C/2025/341, Art. 4"
+        }
+      ],
+      "license": "CC-BY-4.0",
+      "modified": false,
+      "valid_from": "manual-2026-10-19",
+      "valid_to": null,
+      "documents": [
+        "CJ57-AM-786976"
+      ]
+    },
+    {
+      "id": "CJ57-AM-786977-DEPOT-2026-04-10",
+      "institution": "parliament",
+      "kind": "committee_tabling_amendment",
+      "source_kind": "COMMITTEE_TABLING_AMENDMENT",
+      "date": "2026-04-10",
+      "date_precision": "day",
+      "provenance": {
+        "status": "official"
+      },
+      "sources": [
+        {
+          "source": "ep_api",
+          "url": "https://data.europarl.europa.eu/api/v2/procedures/2025-0847?format=application%2Fld%2Bjson",
+          "ref": "eli/dl/event/CJ57-AM-786977-DEPOT-2026-04-10",
+          "retrieved": "2026-10-19T18:18:38Z",
+          "license": "CC-BY-4.0",
+          "legal_basis": "European Parliament Bureau decision of 16.12.2024 on open data, OJ C/2025/341, Art. 4"
+        }
+      ],
+      "license": "CC-BY-4.0",
+      "modified": false,
+      "valid_from": "manual-2026-10-19",
+      "valid_to": null,
+      "documents": [
+        "CJ57-AM-786977"
+      ]
+    },
+    {
+      "id": "CJ57-AM-786978-DEPOT-2026-04-10",
+      "institution": "parliament",
+      "kind": "committee_tabling_amendment",
+      "source_kind": "COMMITTEE_TABLING_AMENDMENT",
+      "date": "2026-04-10",
+      "date_precision": "day",
+      "provenance": {
+        "status": "official"
+      },
+      "sources": [
+        {
+          "source": "ep_api",
+          "url": "https://data.europarl.europa.eu/api/v2/procedures/2025-0847?format=application%2Fld%2Bjson",
+          "ref": "eli/dl/event/CJ57-AM-786978-DEPOT-2026-04-10",
+          "retrieved": "2026-10-19T18:18:38Z",
+          "license": "CC-BY-4.0",
+          "legal_basis": "European Parliament Bureau decision of 16.12.2024 on open data, OJ C/2025/341, Art. 4"
+        }
+      ],
+      "license": "CC-BY-4.0",
+      "modified": false,
+      "valid_from": "manual-2026-10-19",
+      "valid_to": null,
+      "documents": [
+        "CJ57-AM-786978"
+      ]
+    },
+    {
+      "id": "2025-0847-DEC-ADCP-2026-06-23",
+      "institution": "parliament",
+      "kind": "committee_adopting_report",
+      "source_kind": "COMMITTEE_ADOPTING_REPORT",
+      "date": "2026-06-23",
+      "date_precision": "day",
+      "provenance": {
+        "status": "official"
+      },
+      "sources": [
+        {
+          "source": "ep_api",
+          "url": "https://data.europarl.europa.eu/api/v2/procedures/2025-0847?format=application%2Fld%2Bjson",
+          "ref": "eli/dl/event/2025-0847-DEC-ADCP-2026-06-23",
+          "retrieved": "2026-10-19T18:18:38Z",
+          "license": "CC-BY-4.0",
+          "legal_basis": "European Parliament Bureau decision of 16.12.2024 on open data, OJ C/2025/341, Art. 4"
+        }
+      ],
+      "license": "CC-BY-4.0",
+      "modified": false,
+      "valid_from": "manual-2026-10-19",
+      "valid_to": null
+    },
+    {
+      "id": "2025-0847-DEPOT-2026-06-24",
+      "institution": "parliament",
+      "kind": "tabling_plenary",
+      "source_kind": "TABLING_PLENARY",
+      "date": "2026-06-24",
+      "date_precision": "day",
+      "provenance": {
+        "status": "official"
+      },
+      "sources": [
+        {
+          "source": "ep_api",
+          "url": "https://data.europarl.europa.eu/api/v2/procedures/2025-0847?format=application%2Fld%2Bjson",
+          "ref": "eli/dl/event/2025-0847-DEPOT-2026-06-24",
+          "retrieved": "2026-10-19T18:18:38Z",
+          "license": "CC-BY-4.0",
+          "legal_basis": "European Parliament Bureau decision of 16.12.2024 on open data, OJ C/2025/341, Art. 4"
+        }
+      ],
+      "license": "CC-BY-4.0",
+      "modified": false,
+      "valid_from": "manual-2026-10-19",
+      "valid_to": null,
+      "documents": [
+        "A-10-2026-0176"
+      ]
+    },
+    {
+      "id": "2025-0847-DEC-PLEIN1-2026-07-08",
+      "institution": "parliament",
+      "kind": "plenary_endorse_committee_interinstitutional_negotiations",
+      "source_kind": "PLENARY_ENDORSE_COMMITTEE_INTERINSTITUTIONAL_NEGOTIATIONS",
+      "date": "2026-07-08",
+      "date_precision": "day",
+      "provenance": {
+        "status": "official"
+      },
+      "sources": [
+        {
+          "source": "ep_api",
+          "url": "https://data.europarl.europa.eu/api/v2/procedures/2025-0847?format=application%2Fld%2Bjson",
+          "ref": "eli/dl/event/2025-0847-DEC-PLEIN1-2026-07-08",
+          "retrieved": "2026-10-19T18:18:38Z",
+          "license": "CC-BY-4.0",
+          "legal_basis": "European Parliament Bureau decision of 16.12.2024 on open data, OJ C/2025/341, Art. 4"
+        }
+      ],
+      "license": "CC-BY-4.0",
+      "modified": false,
+      "valid_from": "manual-2026-10-19",
+      "valid_to": null
+    },
+    {
+      "id": "2025-0847-MEET-TRI1-2026-07-16",
+      "institution": "parliament",
+      "kind": "trilogue",
+      "source_kind": "INTERINSTITUTIONAL_NEGOTIATION",
+      "date": "2026-07-16",
+      "date_precision": "day",
+      "provenance": {
+        "status": "official"
+      },
+      "sources": [
+        {
+          "source": "ep_api",
+          "url": "https://data.europarl.europa.eu/api/v2/procedures/2025-0847?format=application%2Fld%2Bjson",
+          "ref": "eli/dl/event/2025-0847-MEET-TRI1-2026-07-16",
+          "retrieved": "2026-10-19T18:18:38Z",
+          "license": "CC-BY-4.0",
+          "legal_basis": "European Parliament Bureau decision of 16.12.2024 on open data, OJ C/2025/341, Art. 4"
+        }
+      ],
+      "license": "CC-BY-4.0",
+      "modified": false,
+      "valid_from": "manual-2026-10-19",
+      "valid_to": null
+    }
+  ],
+  "documents": [
+    {
+      "id": "A-10-2026-0176",
+      "institution": "parliament",
+      "doc_type": "A",
+      "access": "public",
+      "provenance": {
+        "status": "official"
+      },
+      "sources": [
+        {
+          "source": "ep_api",
+          "url": "https://data.europarl.europa.eu/api/v2/procedures/2025-0847?format=application%2Fld%2Bjson",
+          "ref": "eli/dl/doc/A-10-2026-0176",
+          "retrieved": "2026-10-19T18:18:38Z",
+          "license": "CC-BY-4.0",
+          "legal_basis": "European Parliament Bureau decision of 16.12.2024 on open data, OJ C/2025/341, Art. 4"
+        }
+      ],
+      "license": "CC-BY-4.0",
+      "modified": false,
+      "valid_from": "manual-2026-10-19",
+      "valid_to": null
+    },
+    {
+      "id": "CJ57-PR-784420",
+      "institution": "parliament",
+      "doc_type": "PR",
+      "access": "public",
+      "provenance": {
+        "status": "official"
+      },
+      "sources": [
+        {
+          "source": "ep_api",
+          "url": "https://data.europarl.europa.eu/api/v2/procedures/2025-0847?format=application%2Fld%2Bjson",
+          "ref": "eli/dl/doc/CJ57-PR-784420",
+          "retrieved": "2026-10-19T18:18:38Z",
+          "license": "CC-BY-4.0",
+          "legal_basis": "European Parliament Bureau decision of 16.12.2024 on open data, OJ C/2025/341, Art. 4"
+        }
+      ],
+      "license": "CC-BY-4.0",
+      "modified": false,
+      "valid_from": "manual-2026-10-19",
+      "valid_to": null
+    }
+  ],
+  "edges": [],
+  "gaps": [
+    {
+      "id": "2025-0847-cod-gap-council-vote",
+      "institution": "council",
+      "kind": "council_vote",
+      "reason": "council_votes_not_machine_readable",
+      "since": "2025-03-10",
+      "note": "Council votes are not machine-readable since 2025-03-10 (datenquellen.md B9).",
+      "valid_from": "manual-2026-10-19",
+      "valid_to": null
+    }
+  ],
+  "people": "https://regesta.io/v1/procedures/2025-0847-cod/people",
+  "attribution": {
+    "text_de": "Daten: Regesta von Berth, CC BY 4.0. Bearbeitet aus Quellen der Europäischen Union (© Europäische Union: Europäisches Parlament, Europäische Kommission, Amt für Veröffentlichungen, Rat der EU). Abstimmungen: HowTheyVote.eu, ODbL 1.0. Keine amtliche Veröffentlichung. Quellen, Lizenzen und Haftungsausschluss: regesta.io/licences",
+    "text_en": "Data: Regesta by Berth, CC BY 4.0. Adapted from European Union sources (© European Union: European Parliament, European Commission, Publications Office, Council of the EU). Votes: HowTheyVote.eu, ODbL 1.0. Not an official publication. Sources, licences and disclaimer: regesta.io/licences",
+    "license": "CC-BY-4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "licenses_page": "https://regesta.io/licences",
+    "disclaimer_url": "https://regesta.io/licences#disclaimer",
+    "official": false
+  }
+}

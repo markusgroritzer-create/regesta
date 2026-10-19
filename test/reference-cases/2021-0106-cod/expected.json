@@ -1,0 +1,121 @@
+{
+  "id": "2021/0106(COD)",
+  "slug": "2021-0106-cod",
+  "category": "fixed",
+  "why": "AI Act, completed, complete record (Fall 1)",
+  "captured": "2026-10-19",
+  "expected": {
+    "ep_events": 26,
+    "ep_event_types": {
+      "COMMITTEE_ADOPTING_OPINION": 5,
+      "COMMITTEE_ADOPTING_REPORT": 1,
+      "COMMITTEE_APPROVE_PROVISIONAL_AGREEMENT": 1,
+      "COMMITTEE_TABLING_OPINION": 5,
+      "COMMITTEE_TABLING_REPORT": 1,
+      "PLENARY_AMEND": 1,
+      "PLENARY_AMEND_PROPOSAL": 1,
+      "PLENARY_DEBATE": 2,
+      "PLENARY_REFER_COMMITTEE_INTERINSTITUTIONAL_NEGOTIATIONS": 1,
+      "PLENARY_VOTE": 2,
+      "PLENARY_VOTE_RESULTS": 2,
+      "PUBLICATION_OFFICIAL_JOURNAL": 1,
+      "REFERRAL": 1,
+      "SIGNATURE": 1,
+      "TABLING_PLENARY": 1
+    },
+    "ep_first_event": {
+      "date": "2021-06-07",
+      "type": "REFERRAL"
+    },
+    "ep_last_event": {
+      "date": "2024-07-12",
+      "type": "PUBLICATION_OFFICIAL_JOURNAL"
+    },
+    "ep_current_stage": "RDG1",
+    "ep_lead_committees": [
+      "IMCO",
+      "LIBE"
+    ],
+    "ep_documents": [
+      "A-9-2023-0188",
+      "C-10-2024-0023",
+      "CJ40-AG-758862",
+      "CJ40-PR-731563",
+      "CULT-AD-719637",
+      "CULT-PA-719637",
+      "ENVI-AD-699056",
+      "ENVI-PA-699056",
+      "ITRE-AD-719801",
+      "ITRE-PA-719801",
+      "JURI-AD-719827",
+      "JURI-PA-719827",
+      "SP-2024-350-TA-9-2023-0236",
+      "TA-9-2023-0236",
+      "TA-9-2024-0138",
+      "TRAN-AD-730085",
+      "TRAN-PA-730085"
+    ],
+    "trilogue_dates": [],
+    "cellar": {
+      "dossier_found": true,
+      "produced_act": {
+        "celex": "32024R1689",
+        "eli": "http://data.europa.eu/eli/reg/2024/1689/oj",
+        "entry_into_force_values": [
+          "2024-08-01",
+          "2025-02-02",
+          "2025-08-02",
+          "2026-08-02",
+          "2027-08-02"
+        ]
+      }
+    },
+    "phase_a": {
+      "ref": "h3-17/01-marktanalyse/datenquellen.md, Fall 1, sources [2], [6]-[8], [15]",
+      "com": "COM(2021)206",
+      "celex_proposal": "52021PC0206",
+      "sec_swd": [
+        "SEC(2021)167",
+        "SWD(2021)84",
+        "SWD(2021)85"
+      ],
+      "council_documents": {
+        "ST_works": 27,
+        "ST_numbers": 16,
+        "PE-CONS_works": 2
+      },
+      "ep_register": "P9_A(2023)0188",
+      "legal_act": "32024R1689",
+      "amended_by": "2025/0359(COD) (OEIL; Cellar direction not checked)",
+      "delegated_acts_in_register_for_2024/1689": 0
+    },
+    "hys_2026_10_19": {
+      "initiative": "12527",
+      "dg": "CNECT",
+      "publications": [
+        {
+          "type": "OPC_LAUNCHED",
+          "reference": "AIConsult2020",
+          "feedback": 1216,
+          "end": "2020-06-14"
+        },
+        {
+          "type": "IMPACT_ASSESS_INCEP",
+          "reference": "Ares(2020)3896535",
+          "reference_number": "PLAN/2020/7453",
+          "feedback": 133,
+          "end": "2020-09-10"
+        },
+        {
+          "type": "PROP_REG",
+          "reference": "COM(2021)206",
+          "reference_number": "PO/2021/2783",
+          "adopted": "2021-04-21",
+          "feedback": 304,
+          "end": "2021-08-06"
+        }
+      ],
+      "note": "Inception impact assessment (133) and feedback on the proposal (304) have no consultation phase in schema v0.1 (proposal in entscheidungen.md)."
+    }
+  }
+}

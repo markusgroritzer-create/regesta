@@ -1,0 +1,77 @@
+{
+  "id": "2025/0359(COD)",
+  "slug": "2025-0359-cod",
+  "category": "fixed",
+  "why": "Completed quickly (Fall 2)",
+  "captured": "2026-10-19",
+  "expected": {
+    "ep_events": 36,
+    "ep_event_types": {
+      "COMMITTEE_ADOPTING_OPINION": 3,
+      "COMMITTEE_ADOPTING_REPORT": 1,
+      "COMMITTEE_APPROVE_PROVISIONAL_AGREEMENT": 1,
+      "COMMITTEE_TABLING_AMENDMENT": 3,
+      "COMMITTEE_TABLING_REPORT": 1,
+      "INTERINSTITUTIONAL_NEGOTIATION": 3,
+      "PLENARY_ADOPT_POSITION": 1,
+      "PLENARY_AMEND": 1,
+      "PLENARY_DEBATE": 1,
+      "PLENARY_REFER_COMMITTEE_INTERINSTITUTIONAL_NEGOTIATIONS": 1,
+      "PLENARY_VOTE": 2,
+      "PLENARY_VOTE_RESULTS": 2,
+      "PUBLICATION_OFFICIAL_JOURNAL": 1,
+      "REFERRAL": 1,
+      "SIGNATURE": 1,
+      "TABLING_PLENARY": 13
+    },
+    "ep_first_event": {
+      "date": "2026-01-19",
+      "type": "REFERRAL"
+    },
+    "ep_last_event": {
+      "date": "2026-07-24",
+      "type": "PUBLICATION_OFFICIAL_JOURNAL"
+    },
+    "ep_current_stage": "RDG1",
+    "ep_lead_committees": [
+      "LIBE",
+      "IMCO"
+    ],
+    "ep_documents": [
+      "A-10-2026-0073",
+      "C-10-2026-0181",
+      "CJ40-AG-789081",
+      "CJ40-PR-782530",
+      "CULT-AD-784261",
+      "CULT-PA-784261",
+      "JURI-AD-784179",
+      "JURI-PA-784179",
+      "SP-2026-09-01-TA-10-2026-0198",
+      "TA-10-2026-0098",
+      "TA-10-2026-0198",
+      "TRAN-AL-785326"
+    ],
+    "trilogue_dates": [
+      "2026-03-26",
+      "2026-04-28",
+      "2026-05-06"
+    ],
+    "cellar": {
+      "dossier_found": true,
+      "produced_act": {
+        "celex": "32026R1744",
+        "eli": "http://data.europa.eu/eli/reg/2026/1744/oj",
+        "entry_into_force_values": [
+          "2026-07-27"
+        ]
+      }
+    },
+    "phase_a": {
+      "ref": "datenquellen.md Fall 2 [18]",
+      "ep_events": 36,
+      "first": "REFERRAL 2026-01-19",
+      "last": "PUBLICATION_OFFICIAL_JOURNAL 2026-07-24",
+      "celex_in_ep": null
+    }
+  }
+}

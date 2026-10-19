@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://regesta.io/schema/v0.1/step-kind.schema.json",
+  "title": "Step kind",
+  "description": "Controlled vocabulary for the kind of a step. Commission, Parliament and Council kinds come from the Regesta data model (annex A). Every EP activity type (had_activity_type) is mapped 1:1 to one kind in x-ep-activity-types; EP types without a matching annex-A kind keep their own kind (lower case). An EP activity type that is not in the mapping is a schema change (new minor version), never silently dropped.",
+  "type": "string",
+  "enum": [
+    "planned", "call_for_evidence", "public_consultation", "draft_for_feedback", "proposal_adopted",
+    "swd_published", "delegated_act_adopted", "transmitted",
+    "referral", "committee_report_tabled", "plenary_debate", "plenary_vote", "trilogue",
+    "committee_approves_agreement", "objection_tabled", "objection_vote",
+    "council_document", "general_approach", "coreper_confirmation", "council_adoption",
+    "signed", "published_oj", "entered_into_force", "transposition_deadline", "nim_notified",
+    "committee_tabling_amendment", "committee_tabling_opinion", "committee_adopting_opinion",
+    "committee_adopting_report", "tabling_plenary", "plenary_amend", "plenary_amend_proposal",
+    "plenary_adopt_position", "plenary_refer_committee_interinstitutional_negotiations",
+    "plenary_endorse_committee_interinstitutional_negotiations"
+  ],
+  "x-groups": {
+    "commission": ["planned", "call_for_evidence", "public_consultation", "draft_for_feedback", "proposal_adopted", "swd_published", "delegated_act_adopted", "transmitted"],
+    "parliament": ["referral", "committee_report_tabled", "plenary_debate", "plenary_vote", "trilogue", "committee_approves_agreement", "objection_tabled", "objection_vote", "committee_tabling_amendment", "committee_tabling_opinion", "committee_adopting_opinion", "committee_adopting_report", "tabling_plenary", "plenary_amend", "plenary_amend_proposal", "plenary_adopt_position", "plenary_refer_committee_interinstitutional_negotiations", "plenary_endorse_committee_interinstitutional_negotiations"],
+    "council": ["council_document", "general_approach", "coreper_confirmation", "council_adoption"],
+    "after_adoption": ["signed", "published_oj", "entered_into_force", "transposition_deadline", "nim_notified"]
+  },
+  "x-derived-only": {
+    "general_approach": "R5, from the subject line of a Council document",
+    "coreper_confirmation": "R5, from the subject line of a Council document",
+    "council_adoption": "only with an official reference"
+  },
+  "x-plenary-decision-kinds": [
+    "plenary_vote", "objection_vote", "plenary_amend", "plenary_amend_proposal", "plenary_adopt_position",
+    "plenary_refer_committee_interinstitutional_negotiations", "plenary_endorse_committee_interinstitutional_negotiations"
+  ],
+  "x-ep-activity-types": {
+    "REFERRAL": "referral",
+    "COMMITTEE_TABLING_REPORT": "committee_report_tabled",
+    "COMMITTEE_TABLING_AMENDMENT": "committee_tabling_amendment",
+    "COMMITTEE_TABLING_OPINION": "committee_tabling_opinion",
+    "COMMITTEE_ADOPTING_OPINION": "committee_adopting_opinion",
+    "COMMITTEE_ADOPTING_REPORT": "committee_adopting_report",
+    "TABLING_PLENARY": "tabling_plenary",
+    "PLENARY_DEBATE": "plenary_debate",
+    "PLENARY_VOTE": "plenary_vote",
+    "PLENARY_VOTE_RESULTS": "plenary_vote",
+    "PLENARY_AMEND": "plenary_amend",
+    "PLENARY_AMEND_PROPOSAL": "plenary_amend_proposal",
+    "PLENARY_ADOPT_POSITION": "plenary_adopt_position",
+    "PLENARY_REFER_COMMITTEE_INTERINSTITUTIONAL_NEGOTIATIONS": "plenary_refer_committee_interinstitutional_negotiations",
+    "PLENARY_ENDORSE_COMMITTEE_INTERINSTITUTIONAL_NEGOTIATIONS": "plenary_endorse_committee_interinstitutional_negotiations",
+    "INTERINSTITUTIONAL_NEGOTIATION": "trilogue",
+    "COMMITTEE_APPROVE_PROVISIONAL_AGREEMENT": "committee_approves_agreement",
+    "SIGNATURE": "signed",
+    "PUBLICATION_OFFICIAL_JOURNAL": "published_oj"
+  },
+  "x-ep-activity-types-note": "Mapping covers the 19 EP activity types observed in the reference cases on 2026-10-19. EP events are recorded with institution 'parliament' because they come from the Parliament's procedure record."
+}

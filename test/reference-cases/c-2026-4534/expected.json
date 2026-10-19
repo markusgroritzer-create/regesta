@@ -1,0 +1,53 @@
+{
+  "id": "C(2026)4534",
+  "slug": "c-2026-4534",
+  "category": "fixed",
+  "why": "Delegated act C(2026)4534 (Fall 3)",
+  "captured": "2026-10-19",
+  "expected": {
+    "ep_events": 1,
+    "ep_event_types": {
+      "REFERRAL": 1
+    },
+    "ep_first_event": {
+      "date": "2026-07-08",
+      "type": "REFERRAL"
+    },
+    "ep_last_event": {
+      "date": "2026-07-08",
+      "type": "REFERRAL"
+    },
+    "ep_current_stage": "RDG1",
+    "ep_lead_committees": [
+      "EMPL"
+    ],
+    "ep_documents": [],
+    "trilogue_dates": [],
+    "phase_a": {
+      "ref": "h3-17/01-marktanalyse/datenquellen.md, Fall 3, sources [3], [10], [16], [17]",
+      "c_code": "C(2026)4534",
+      "ep_proc": "2026/2805(DEA)",
+      "r6_title_similarity": 0.955,
+      "register": {
+        "status": "Adopted",
+        "phase": "Scrutiny",
+        "basic_act": "Directive (EU) 2024/2841",
+        "empowerment": "Art. 7(7), Art. 8(7)",
+        "celex": null
+      },
+      "cellar": {
+        "work_type": "REG_DEL",
+        "internal_procedures": 3,
+        "adopted": "2026-07-01",
+        "basic_act_link": false
+      },
+      "hys": {
+        "initiative": "14767",
+        "reference": "Ares(2025)5456204",
+        "draft": "Ares(2026)3913592 (ISC/2026/02379, 53 feedback, until 2026-04-30)",
+        "adopted": "C(2026)4534 (PE/2026/3948)"
+      },
+      "m2_acceptance": "Complete as datenquellen.md Fall 3 (08-modulplan.md M2)."
+    }
+  }
+}

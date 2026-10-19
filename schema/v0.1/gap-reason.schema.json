@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://regesta.io/schema/v0.1/gap-reason.schema.json",
+  "title": "Reason for a missing link (gap)",
+  "description": "Controlled vocabulary for provenance.status = missing and for gap records. A gap is shown, never silently filled.",
+  "type": "string",
+  "enum": [
+    "council_votes_not_machine_readable",
+    "cellar_lag",
+    "ep_dea_without_c_code",
+    "match_below_threshold",
+    "hys_without_com_reference",
+    "limite_metadata_only",
+    "source_unavailable",
+    "not_yet_issued"
+  ],
+  "x-descriptions": {
+    "council_votes_not_machine_readable": "Council votes are not available in machine-readable form since 2025-03-10.",
+    "cellar_lag": "Cellar has not (yet) recorded a Council step that must exist, e.g. between trilogue agreement and EP approval.",
+    "ep_dea_without_c_code": "The EP delegated-act procedure carries no Commission C number.",
+    "match_below_threshold": "A derived match exists but its quality is below 'medium'; candidates are only given in the API field 'candidates'.",
+    "hys_without_com_reference": "The 'Have your say' initiative lists no COM or C number that links it to a procedure.",
+    "limite_metadata_only": "The Council document is LIMITE; only its identifier, date and header are recorded.",
+    "source_unavailable": "The source could not be retrieved. Used only in source health, never on a procedure.",
+    "not_yet_issued": "The document is announced but not yet issued by the institution (e.g. verbatim report)."
+  },
+  "x-not-on-procedure": ["source_unavailable"]
+}

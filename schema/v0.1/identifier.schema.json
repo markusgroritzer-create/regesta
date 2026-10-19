@@ -1,0 +1,63 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://regesta.io/schema/v0.1/identifier.schema.json",
+  "title": "Identifier (alias) of a procedure",
+  "description": "One row of the alias table: an identifier or spelling used by a source, in its normalised form, mapped to exactly one canonical procedure. The normalisation rules are part of the published schema (x-normalisation). An identifier that would map to two procedures is not resolved; the API answers 'ambiguous' with both candidates.",
+  "type": "object",
+  "required": ["alias_type", "alias"],
+  "properties": {
+    "alias_type": {
+      "enum": [
+        "ep_proc", "cellar_proc", "council_proc", "ep_proc_id", "com", "sec", "swd", "c_code",
+        "celex", "eli", "council_doc", "hys_initiative", "ares", "hys_ref", "ep_register",
+        "ep_doc", "ep_event", "geda", "mne"
+      ]
+    },
+    "alias": { "type": "string", "minLength": 1 }
+  },
+  "allOf": [
+    { "if": { "properties": { "alias_type": { "const": "ep_proc" } } }, "then": { "properties": { "alias": { "pattern": "^[0-9]{4}/[0-9]{4}\\([A-Z]{3}\\)$" } } } },
+    { "if": { "properties": { "alias_type": { "const": "cellar_proc" } } }, "then": { "properties": { "alias": { "pattern": "^[0-9]{4}/[0-9]{4}/[A-Z]{3}$" } } } },
+    { "if": { "properties": { "alias_type": { "const": "council_proc" } } }, "then": { "properties": { "alias": { "pattern": "^[0-9]{4}/[0-9]{4} \\([A-Z]{3}\\)$" } } } },
+    { "if": { "properties": { "alias_type": { "const": "ep_proc_id" } } }, "then": { "properties": { "alias": { "pattern": "^(eli/dl/proc/)?[0-9]{4}-[0-9]{4}$" } } } },
+    { "if": { "properties": { "alias_type": { "const": "com" } } }, "then": { "properties": { "alias": { "pattern": "^COM\\([0-9]{4}\\)[1-9][0-9]*$" } } } },
+    { "if": { "properties": { "alias_type": { "const": "sec" } } }, "then": { "properties": { "alias": { "pattern": "^SEC\\([0-9]{4}\\)[1-9][0-9]*$" } } } },
+    { "if": { "properties": { "alias_type": { "const": "swd" } } }, "then": { "properties": { "alias": { "pattern": "^SWD\\([0-9]{4}\\)[1-9][0-9]*$" } } } },
+    { "if": { "properties": { "alias_type": { "const": "c_code" } } }, "then": { "properties": { "alias": { "pattern": "^C\\([0-9]{4}\\)[1-9][0-9]*$" } } } },
+    { "if": { "properties": { "alias_type": { "const": "celex" } } }, "then": { "properties": { "alias": { "pattern": "^[0-9CE][0-9]{4}[A-Z]{1,2}[0-9]{4}[0-9A-Z()_-]*$" } } } },
+    { "if": { "properties": { "alias_type": { "const": "eli" } } }, "then": { "properties": { "alias": { "pattern": "^http://data\\.europa\\.eu/eli/[A-Za-z_]+/.+$" } } } },
+    { "if": { "properties": { "alias_type": { "const": "council_doc" } } }, "then": { "properties": { "alias": { "pattern": "^(ST|WK|CM|PE-CONS) [0-9]+(/[0-9]+)?/[0-9]{2}( REV [0-9]+)?( ADD [0-9]+)?( COR [0-9]+)?$" } } } },
+    { "if": { "properties": { "alias_type": { "const": "hys_initiative" } } }, "then": { "properties": { "alias": { "pattern": "^[1-9][0-9]*$" } } } },
+    { "if": { "properties": { "alias_type": { "const": "ares" } } }, "then": { "properties": { "alias": { "pattern": "^Ares\\([0-9]{4}\\)[0-9]+$" } } } },
+    { "if": { "properties": { "alias_type": { "const": "hys_ref" } } }, "then": { "properties": { "alias": { "pattern": "^(PLAN|ISC|PE|PO)/[0-9]{4}/[0-9]+$" } } } },
+    { "if": { "properties": { "alias_type": { "const": "ep_register" } } }, "then": { "properties": { "alias": { "pattern": "^(P[0-9]+|[A-Z]{4})_[A-Z]+\\([0-9]{4}\\)[0-9]+$" } } } },
+    { "if": { "properties": { "alias_type": { "const": "ep_doc" } } }, "then": { "properties": { "alias": { "pattern": "^[A-Z][A-Z0-9]*(-[A-Z0-9]+)+$" } } } },
+    { "if": { "properties": { "alias_type": { "const": "ep_event" } } }, "then": { "properties": { "alias": { "pattern": "^[A-Z0-9][A-Z0-9-]*$" } } } },
+    { "if": { "properties": { "alias_type": { "const": "geda" } } }, "then": { "properties": { "alias": { "pattern": "^GEDA/[A-Z]/\\([0-9]{4}\\)[0-9]+$" } } } },
+    { "if": { "properties": { "alias_type": { "const": "mne" } } }, "then": { "properties": { "alias": { "pattern": "^MNE\\([0-9]{4}\\)[0-9]+$" } } } }
+  ],
+  "x-excluded-alias-types": {
+    "htv_vote": "HowTheyVote vote ids exist only in the separate ODbL voting database (votes/), never in this CC BY alias table."
+  },
+  "x-normalisation": {
+    "ep_proc": { "source": "EP API 'label', HowTheyVote 'procedure_reference'", "rule": "Canonical form of COD, DEA and RPS procedures; kept as written.", "examples": [["2025/0102(COD)", "2025/0102(COD)"]] },
+    "cellar_proc": { "source": "Cellar procedure_code_interinstitutional_reference_procedure", "rule": "R1: 'YYYY/NNNN/TYPE' maps to 'YYYY/NNNN(TYPE)'.", "maps_to": "ep_proc", "examples": [["2025/0102/COD", "2025/0102(COD)"]] },
+    "council_proc": { "source": "Council PDF header 'Interinstitutional File'", "rule": "R1: remove the space before '('.", "maps_to": "ep_proc", "examples": [["2025/0102 (COD)", "2025/0102(COD)"]] },
+    "ep_proc_id": { "source": "EP API process_id, ELI-DL", "rule": "R1: 'YYYY-NNNN' maps to 'YYYY/NNNN(TYPE)' with the type from the EP procedure.", "maps_to": "ep_proc", "examples": [["2025-0102", "2025/0102(COD)"], ["eli/dl/proc/2025-0102", "2025/0102(COD)"]] },
+    "com": { "source": "Cellar, Have your say, Commission documents register", "rule": "Remove the Cellar prefix 'immc:', 'final', spaces and leading zeros of the number.", "examples": [["COM(2021)0206", "COM(2021)206"], ["immc:COM(2021)206 final", "COM(2021)206"], ["COM(2025) 102 final", "COM(2025)102"]] },
+    "sec": { "source": "Cellar, Have your say", "rule": "As com.", "examples": [["SEC(2021)167", "SEC(2021)167"]] },
+    "swd": { "source": "Cellar, Have your say", "rule": "As com.", "examples": [["SWD(2021)84", "SWD(2021)84"]] },
+    "c_code": { "source": "Register of delegated acts 'CCode', Cellar, Have your say", "rule": "As com.", "examples": [["immc:C(2026)4534", "C(2026)4534"]] },
+    "celex": { "source": "Cellar, register of delegated acts", "rule": "Unchanged.", "examples": [["32024R1689", "32024R1689"]] },
+    "eli": { "source": "Cellar resource_legal_eli", "rule": "Unchanged; Cellar prefix 'eli:' is expanded to 'http://data.europa.eu/eli/'.", "examples": [["http://data.europa.eu/eli/reg/2024/1689/oj", "http://data.europa.eu/eli/reg/2024/1689/oj"], ["eli:C/2026/3700/oj", "http://data.europa.eu/eli/C/2026/3700/oj"]] },
+    "council_doc": { "source": "Cellar works in the dossier", "rule": "'TYPE NNNN/YY [REV n]'; Cellar prefix 'consil:' and underscores become spaces.", "examples": [["ST 6872/25", "ST 6872/25"], ["ST 10915/2/26 REV 2", "ST 10915/2/26 REV 2"]] },
+    "hys_initiative": { "source": "Have your say 'id'", "rule": "Number; derived link (R3).", "examples": [["14486", "14486"]] },
+    "ares": { "source": "Have your say 'reference', Cellar works", "rule": "Unchanged. Not unique (B8): only an alias of one initiative, never a key.", "examples": [["Ares(2025)813524", "Ares(2025)813524"]] },
+    "hys_ref": { "source": "Have your say 'referenceNumber'", "rule": "Unchanged.", "examples": [["PLAN/2025/243", "PLAN/2025/243"]] },
+    "ep_register": { "source": "EP API notation_publicRegister, Cellar 'ep:'", "rule": "Unchanged; R2 links it to ep_doc ('P10_A(2025)0272' = 'A-10-2025-0272').", "examples": [["P10_A(2025)0272", "P10_A(2025)0272"]] },
+    "ep_doc": { "source": "EP API eli/dl/doc/…", "rule": "Unchanged, without the 'eli/dl/doc/' prefix. Forms seen: plenary reports and texts (A-10-2025-0272, TA-10-2026-0001), committee documents including joint committees (SANT-PR-775742, CJ40-AG-758862), Commission proposals in EP notation (C-10-2025-0048) and signed texts (SP-2024-350-TA-9-2023-0236).", "examples": [["eli/dl/doc/A-10-2025-0272", "A-10-2025-0272"], ["eli/dl/doc/CJ40-AG-758862", "CJ40-AG-758862"]] },
+    "ep_event": { "source": "EP API event", "rule": "Unchanged, without the 'eli/dl/event/' prefix.", "examples": [["eli/dl/event/MTG-PL-2026-01-20-VOT-ITM-981677", "MTG-PL-2026-01-20-VOT-ITM-981677"]] },
+    "geda": { "source": "OEIL (identifier and link only)", "rule": "Unchanged.", "examples": [["GEDA/A/(2024)000753", "GEDA/A/(2024)000753"]] },
+    "mne": { "source": "Cellar NIM", "rule": "Unchanged.", "examples": [["MNE(2022)05537", "MNE(2022)05537"]] }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "id": "2025/0059(COD)",
+  "slug": "2025-0059-cod",
+  "category": "random",
+  "why": "Random draw from the Module 1 scope",
+  "captured": "2026-10-19",
+  "expected": {
+    "ep_events": 29,
+    "ep_event_types": {
+      "COMMITTEE_ADOPTING_REPORT": 1,
+      "COMMITTEE_APPROVE_PROVISIONAL_AGREEMENT": 1,
+      "COMMITTEE_TABLING_AMENDMENT": 7,
+      "COMMITTEE_TABLING_REPORT": 1,
+      "INTERINSTITUTIONAL_NEGOTIATION": 4,
+      "PLENARY_ADOPT_POSITION": 1,
+      "PLENARY_DEBATE": 1,
+      "PLENARY_ENDORSE_COMMITTEE_INTERINSTITUTIONAL_NEGOTIATIONS": 1,
+      "PLENARY_VOTE": 2,
+      "PLENARY_VOTE_RESULTS": 2,
+      "PUBLICATION_OFFICIAL_JOURNAL": 1,
+      "REFERRAL": 1,
+      "SIGNATURE": 1,
+      "TABLING_PLENARY": 5
+    },
+    "ep_first_event": {
+      "date": "2025-06-16",
+      "type": "REFERRAL"
+    },
+    "ep_last_event": {
+      "date": "2026-10-15",
+      "type": "PUBLICATION_OFFICIAL_JOURNAL"
+    },
+    "ep_current_stage": "RDG1",
+    "ep_lead_committees": [
+      "LIBE"
+    ],
+    "ep_documents": [
+      "A-10-2026-0048",
+      "C-10-2026-0246",
+      "LIBE-AG-790008",
+      "LIBE-PR-779352",
+      "SP-2026-07-27-TA-10-2026-0207"
+    ],
+    "trilogue_dates": [
+      "2026-03-26",
+      "2026-04-22",
+      "2026-05-20",
+      "2026-06-01"
+    ],
+    "cellar": {
+      "dossier_found": true,
+      "produced_act": {
+        "celex": "32026R2280",
+        "eli": "http://data.europa.eu/eli/reg/2026/2280/oj",
+        "entry_into_force_values": [
+          "2026-10-15",
+          "2026-10-16",
+          "2027-10-17"
+        ]
+      }
+    }
+  }
+}

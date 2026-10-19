@@ -1,0 +1,406 @@
+{
+  "$schema": "https://regesta.io/schema/v0.1/procedure.schema.json",
+  "schema_version": "0.1.0",
+  "id": "C(2026)4534",
+  "slug": "c-2026-4534",
+  "type": "DEA",
+  "title": "Commission Delegated Regulation supplementing Directive (EU) 2024/2841 as regards setting the QR code on the physical version of the European Disability Card and setting the QR code and establishing common technical specifications that ensure the security of the physical version of the European Parking Card for persons with disabilities, as well as interoperability matters",
+  "status": "ongoing",
+  "institution_leads": {
+    "commission_dg": "JUST",
+    "ep_committees": [
+      "EMPL"
+    ]
+  },
+  "provenance": {
+    "status": "official"
+  },
+  "sources": [
+    {
+      "source": "ep_api",
+      "url": "https://data.europarl.europa.eu/api/v2/procedures/2026-2805?format=application%2Fld%2Bjson",
+      "ref": "eli/dl/proc/2026-2805",
+      "retrieved": "2026-10-19T18:20:08Z",
+      "license": "CC-BY-4.0",
+      "legal_basis": "European Parliament Bureau decision of 16.12.2024 on open data, OJ C/2025/341, Art. 4"
+    },
+    {
+      "source": "hys",
+      "url": "https://ec.europa.eu/info/law/better-regulation/brpapi/groupInitiatives/14767?language=EN",
+      "ref": "14767",
+      "retrieved": "2026-10-19T18:22:50Z",
+      "license": "LicenseRef-EC-Decision-2011-833",
+      "legal_basis": "Commission Decision 2011/833/EU with Decision C(2019) 1655, Art. 1 (CC BY 4.0)"
+    }
+  ],
+  "license": "CC-BY-4.0",
+  "modified": false,
+  "valid_from": "manual-2026-10-19",
+  "valid_to": null,
+  "identifiers": [
+    {
+      "alias_type": "ep_proc",
+      "alias": "2026/2805(DEA)",
+      "provenance": {
+        "status": "derived",
+        "rule": "R6",
+        "rule_version": "1.0",
+        "quality": "high",
+        "score": 0.955,
+        "evidence": [
+          "title_similarity=0.955 (Phase A, against the register of delegated acts, datenquellen.md Fall 3 [3], [10])",
+          "basic_act=Directive (EU) 2024/2841 in the EP title",
+          "referral_within_window=true (C(2026)4534 adopted 2026-07-01, EP referral 2026-07-08)"
+        ]
+      },
+      "sources": [
+        {
+          "source": "ep_api",
+          "url": "https://data.europarl.europa.eu/api/v2/procedures/2026-2805?format=application%2Fld%2Bjson",
+          "ref": "eli/dl/proc/2026-2805",
+          "retrieved": "2026-10-19T18:20:08Z",
+          "license": "CC-BY-4.0",
+          "legal_basis": "European Parliament Bureau decision of 16.12.2024 on open data, OJ C/2025/341, Art. 4"
+        },
+        {
+          "source": "hys",
+          "url": "https://ec.europa.eu/info/law/better-regulation/brpapi/groupInitiatives/14767?language=EN",
+          "ref": "C(2026)4534",
+          "retrieved": "2026-10-19T18:22:50Z",
+          "license": "LicenseRef-EC-Decision-2011-833",
+          "legal_basis": "Commission Decision 2011/833/EU with Decision C(2019) 1655, Art. 1 (CC BY 4.0)"
+        }
+      ],
+      "license": "CC-BY-4.0",
+      "modified": true,
+      "valid_from": "manual-2026-10-19",
+      "valid_to": null
+    },
+    {
+      "alias_type": "ep_proc_id",
+      "alias": "2026-2805",
+      "provenance": {
+        "status": "derived",
+        "rule": "R6",
+        "rule_version": "1.0",
+        "quality": "high",
+        "score": 0.955,
+        "evidence": [
+          "title_similarity=0.955 (Phase A, against the register of delegated acts, datenquellen.md Fall 3 [3], [10])",
+          "basic_act=Directive (EU) 2024/2841 in the EP title",
+          "referral_within_window=true (C(2026)4534 adopted 2026-07-01, EP referral 2026-07-08)"
+        ]
+      },
+      "sources": [
+        {
+          "source": "ep_api",
+          "url": "https://data.europarl.europa.eu/api/v2/procedures/2026-2805?format=application%2Fld%2Bjson",
+          "ref": "eli/dl/proc/2026-2805",
+          "retrieved": "2026-10-19T18:20:08Z",
+          "license": "CC-BY-4.0",
+          "legal_basis": "European Parliament Bureau decision of 16.12.2024 on open data, OJ C/2025/341, Art. 4"
+        },
+        {
+          "source": "hys",
+          "url": "https://ec.europa.eu/info/law/better-regulation/brpapi/groupInitiatives/14767?language=EN",
+          "ref": "C(2026)4534",
+          "retrieved": "2026-10-19T18:22:50Z",
+          "license": "LicenseRef-EC-Decision-2011-833",
+          "legal_basis": "Commission Decision 2011/833/EU with Decision C(2019) 1655, Art. 1 (CC BY 4.0)"
+        }
+      ],
+      "license": "CC-BY-4.0",
+      "modified": true,
+      "valid_from": "manual-2026-10-19",
+      "valid_to": null
+    },
+    {
+      "alias_type": "c_code",
+      "alias": "C(2026)4534",
+      "provenance": {
+        "status": "official"
+      },
+      "sources": [
+        {
+          "source": "hys",
+          "url": "https://ec.europa.eu/info/law/better-regulation/brpapi/groupInitiatives/14767?language=EN",
+          "ref": "PE/2026/3948",
+          "retrieved": "2026-10-19T18:22:50Z",
+          "license": "LicenseRef-EC-Decision-2011-833",
+          "legal_basis": "Commission Decision 2011/833/EU with Decision C(2019) 1655, Art. 1 (CC BY 4.0)"
+        }
+      ],
+      "license": "CC-BY-4.0",
+      "modified": false,
+      "valid_from": "manual-2026-10-19",
+      "valid_to": null
+    },
+    {
+      "alias_type": "hys_initiative",
+      "alias": "14767",
+      "provenance": {
+        "status": "derived",
+        "rule": "R3",
+        "rule_version": "1.0",
+        "quality": "exact",
+        "evidence": [
+          "publications[].reference = C(2026)4534 (REG_DEL) = canonical identifier"
+        ]
+      },
+      "sources": [
+        {
+          "source": "hys",
+          "url": "https://ec.europa.eu/info/law/better-regulation/brpapi/groupInitiatives/14767?language=EN",
+          "ref": "14767",
+          "retrieved": "2026-10-19T18:22:50Z",
+          "license": "LicenseRef-EC-Decision-2011-833",
+          "legal_basis": "Commission Decision 2011/833/EU with Decision C(2019) 1655, Art. 1 (CC BY 4.0)"
+        }
+      ],
+      "license": "CC-BY-4.0",
+      "modified": true,
+      "valid_from": "manual-2026-10-19",
+      "valid_to": null
+    },
+    {
+      "alias_type": "ares",
+      "alias": "Ares(2025)5456204",
+      "provenance": {
+        "status": "official"
+      },
+      "sources": [
+        {
+          "source": "hys",
+          "url": "https://ec.europa.eu/info/law/better-regulation/brpapi/groupInitiatives/14767?language=EN",
+          "ref": "Ares(2025)5456204",
+          "retrieved": "2026-10-19T18:22:50Z",
+          "license": "LicenseRef-EC-Decision-2011-833",
+          "legal_basis": "Commission Decision 2011/833/EU with Decision C(2019) 1655, Art. 1 (CC BY 4.0)"
+        }
+      ],
+      "license": "CC-BY-4.0",
+      "modified": false,
+      "valid_from": "manual-2026-10-19",
+      "valid_to": null
+    },
+    {
+      "alias_type": "ares",
+      "alias": "Ares(2026)3913592",
+      "provenance": {
+        "status": "official"
+      },
+      "sources": [
+        {
+          "source": "hys",
+          "url": "https://ec.europa.eu/info/law/better-regulation/brpapi/groupInitiatives/14767?language=EN",
+          "ref": "Ares(2026)3913592",
+          "retrieved": "2026-10-19T18:22:50Z",
+          "license": "LicenseRef-EC-Decision-2011-833",
+          "legal_basis": "Commission Decision 2011/833/EU with Decision C(2019) 1655, Art. 1 (CC BY 4.0)"
+        }
+      ],
+      "license": "CC-BY-4.0",
+      "modified": false,
+      "valid_from": "manual-2026-10-19",
+      "valid_to": null
+    },
+    {
+      "alias_type": "hys_ref",
+      "alias": "PLAN/2025/1395",
+      "provenance": {
+        "status": "official"
+      },
+      "sources": [
+        {
+          "source": "hys",
+          "url": "https://ec.europa.eu/info/law/better-regulation/brpapi/groupInitiatives/14767?language=EN",
+          "ref": "PLAN/2025/1395",
+          "retrieved": "2026-10-19T18:22:50Z",
+          "license": "LicenseRef-EC-Decision-2011-833",
+          "legal_basis": "Commission Decision 2011/833/EU with Decision C(2019) 1655, Art. 1 (CC BY 4.0)"
+        }
+      ],
+      "license": "CC-BY-4.0",
+      "modified": false,
+      "valid_from": "manual-2026-10-19",
+      "valid_to": null
+    },
+    {
+      "alias_type": "hys_ref",
+      "alias": "ISC/2026/02379",
+      "provenance": {
+        "status": "official"
+      },
+      "sources": [
+        {
+          "source": "hys",
+          "url": "https://ec.europa.eu/info/law/better-regulation/brpapi/groupInitiatives/14767?language=EN",
+          "ref": "ISC/2026/02379",
+          "retrieved": "2026-10-19T18:22:50Z",
+          "license": "LicenseRef-EC-Decision-2011-833",
+          "legal_basis": "Commission Decision 2011/833/EU with Decision C(2019) 1655, Art. 1 (CC BY 4.0)"
+        }
+      ],
+      "license": "CC-BY-4.0",
+      "modified": false,
+      "valid_from": "manual-2026-10-19",
+      "valid_to": null
+    },
+    {
+      "alias_type": "hys_ref",
+      "alias": "PE/2026/3948",
+      "provenance": {
+        "status": "official"
+      },
+      "sources": [
+        {
+          "source": "hys",
+          "url": "https://ec.europa.eu/info/law/better-regulation/brpapi/groupInitiatives/14767?language=EN",
+          "ref": "PE/2026/3948",
+          "retrieved": "2026-10-19T18:22:50Z",
+          "license": "LicenseRef-EC-Decision-2011-833",
+          "legal_basis": "Commission Decision 2011/833/EU with Decision C(2019) 1655, Art. 1 (CC BY 4.0)"
+        }
+      ],
+      "license": "CC-BY-4.0",
+      "modified": false,
+      "valid_from": "manual-2026-10-19",
+      "valid_to": null
+    }
+  ],
+  "steps": [
+    {
+      "id": "2026-2805-ANPRO-2026-07-08",
+      "institution": "parliament",
+      "kind": "referral",
+      "source_kind": "REFERRAL",
+      "date": "2026-07-08",
+      "date_precision": "day",
+      "provenance": {
+        "status": "official"
+      },
+      "sources": [
+        {
+          "source": "ep_api",
+          "url": "https://data.europarl.europa.eu/api/v2/procedures/2026-2805?format=application%2Fld%2Bjson",
+          "ref": "eli/dl/event/2026-2805-ANPRO-2026-07-08",
+          "retrieved": "2026-10-19T18:20:08Z",
+          "license": "CC-BY-4.0",
+          "legal_basis": "European Parliament Bureau decision of 16.12.2024 on open data, OJ C/2025/341, Art. 4"
+        }
+      ],
+      "license": "CC-BY-4.0",
+      "modified": false,
+      "valid_from": "manual-2026-10-19",
+      "valid_to": null
+    },
+    {
+      "id": "hys-14767-REG_DEL",
+      "institution": "commission",
+      "kind": "delegated_act_adopted",
+      "source_kind": "REG_DEL",
+      "date": "2026-07-01",
+      "date_precision": "day",
+      "documents": [
+        "C(2026)4534"
+      ],
+      "provenance": {
+        "status": "official"
+      },
+      "sources": [
+        {
+          "source": "hys",
+          "url": "https://ec.europa.eu/info/law/better-regulation/brpapi/groupInitiatives/14767?language=EN",
+          "ref": "PE/2026/3948",
+          "retrieved": "2026-10-19T18:22:50Z",
+          "license": "LicenseRef-EC-Decision-2011-833",
+          "legal_basis": "Commission Decision 2011/833/EU with Decision C(2019) 1655, Art. 1 (CC BY 4.0)"
+        }
+      ],
+      "license": "CC-BY-4.0",
+      "modified": false,
+      "valid_from": "manual-2026-10-19",
+      "valid_to": null
+    }
+  ],
+  "documents": [],
+  "consultations": [
+    {
+      "hys_initiative": "14767",
+      "phase": "draft_for_feedback",
+      "end": "2026-04-30",
+      "feedback_count": 53,
+      "url": "https://ec.europa.eu/info/law/better-regulation/have-your-say/initiatives/14767",
+      "provenance": {
+        "status": "official"
+      },
+      "sources": [
+        {
+          "source": "hys",
+          "url": "https://ec.europa.eu/info/law/better-regulation/brpapi/groupInitiatives/14767?language=EN",
+          "ref": "Ares(2026)3913592",
+          "retrieved": "2026-10-19T18:22:50Z",
+          "license": "LicenseRef-EC-Decision-2011-833",
+          "legal_basis": "Commission Decision 2011/833/EU with Decision C(2019) 1655, Art. 1 (CC BY 4.0)"
+        }
+      ],
+      "license": "CC-BY-4.0",
+      "modified": false,
+      "valid_from": "manual-2026-10-19",
+      "valid_to": null
+    }
+  ],
+  "edges": [
+    {
+      "id": "c-2026-4534-same_as-2026-2805-dea",
+      "edge": "same_as",
+      "from": "2026/2805(DEA)",
+      "to": "C(2026)4534",
+      "provenance": {
+        "status": "derived",
+        "rule": "R6",
+        "rule_version": "1.0",
+        "quality": "high",
+        "score": 0.955,
+        "evidence": [
+          "title_similarity=0.955 (Phase A, against the register of delegated acts, datenquellen.md Fall 3 [3], [10])",
+          "basic_act=Directive (EU) 2024/2841 in the EP title",
+          "referral_within_window=true (C(2026)4534 adopted 2026-07-01, EP referral 2026-07-08)"
+        ]
+      },
+      "sources": [
+        {
+          "source": "ep_api",
+          "url": "https://data.europarl.europa.eu/api/v2/procedures/2026-2805?format=application%2Fld%2Bjson",
+          "ref": "eli/dl/proc/2026-2805",
+          "retrieved": "2026-10-19T18:20:08Z",
+          "license": "CC-BY-4.0",
+          "legal_basis": "European Parliament Bureau decision of 16.12.2024 on open data, OJ C/2025/341, Art. 4"
+        },
+        {
+          "source": "hys",
+          "url": "https://ec.europa.eu/info/law/better-regulation/brpapi/groupInitiatives/14767?language=EN",
+          "ref": "C(2026)4534",
+          "retrieved": "2026-10-19T18:22:50Z",
+          "license": "LicenseRef-EC-Decision-2011-833",
+          "legal_basis": "Commission Decision 2011/833/EU with Decision C(2019) 1655, Art. 1 (CC BY 4.0)"
+        }
+      ],
+      "license": "CC-BY-4.0",
+      "modified": true,
+      "valid_from": "manual-2026-10-19",
+      "valid_to": null
+    }
+  ],
+  "gaps": [],
+  "people": "https://regesta.io/v1/procedures/c-2026-4534/people",
+  "attribution": {
+    "text_de": "Daten: Regesta von Berth, CC BY 4.0. Bearbeitet aus Quellen der Europäischen Union (© Europäische Union: Europäisches Parlament, Europäische Kommission, Amt für Veröffentlichungen, Rat der EU). Abstimmungen: HowTheyVote.eu, ODbL 1.0. Keine amtliche Veröffentlichung. Quellen, Lizenzen und Haftungsausschluss: regesta.io/licences",
+    "text_en": "Data: Regesta by Berth, CC BY 4.0. Adapted from European Union sources (© European Union: European Parliament, European Commission, Publications Office, Council of the EU). Votes: HowTheyVote.eu, ODbL 1.0. Not an official publication. Sources, licences and disclaimer: regesta.io/licences",
+    "license": "CC-BY-4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "licenses_page": "https://regesta.io/licences",
+    "disclaimer_url": "https://regesta.io/licences#disclaimer",
+    "official": false
+  }
+}

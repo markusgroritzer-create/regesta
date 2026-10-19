@@ -1,0 +1,293 @@
+{
+  "cases": [
+    {
+      "id": "2021/0106(COD)",
+      "slug": "2021-0106-cod",
+      "type": "COD",
+      "category": "fixed",
+      "why": "AI Act, completed, complete record (Fall 1)"
+    },
+    {
+      "id": "2025/0102(COD)",
+      "slug": "2025-0102-cod",
+      "type": "COD",
+      "category": "fixed",
+      "why": "Critical Medicines Act, ongoing, all three institutions (Fall 2)"
+    },
+    {
+      "id": "2025/0360(COD)",
+      "slug": "2025-0360-cod",
+      "type": "COD",
+      "category": "fixed",
+      "why": "Early in the procedure (Fall 2, comparison)"
+    },
+    {
+      "id": "2025/0359(COD)",
+      "slug": "2025-0359-cod",
+      "type": "COD",
+      "category": "fixed",
+      "why": "Completed quickly (Fall 2)"
+    },
+    {
+      "id": "C(2026)4534",
+      "slug": "c-2026-4534",
+      "type": "DEA",
+      "category": "fixed",
+      "why": "Delegated act C(2026)4534 (Fall 3)"
+    },
+    {
+      "id": "2026/2663(DEA)",
+      "slug": "2026-2663-dea",
+      "type": "DEA",
+      "category": "random",
+      "why": "Random draw from the Module 1 scope"
+    },
+    {
+      "id": "2025/0847(COD)",
+      "slug": "2025-0847-cod",
+      "type": "COD",
+      "category": "random",
+      "why": "Random draw from the Module 1 scope"
+    },
+    {
+      "id": "2023/0393(COD)",
+      "slug": "2023-0393-cod",
+      "type": "COD",
+      "category": "random",
+      "why": "Random draw from the Module 1 scope"
+    },
+    {
+      "id": "2026/2863(DEA)",
+      "slug": "2026-2863-dea",
+      "type": "DEA",
+      "category": "random",
+      "why": "Random draw from the Module 1 scope"
+    },
+    {
+      "id": "2025/2829(RPS)",
+      "slug": "2025-2829-rps",
+      "type": "RPS",
+      "category": "random",
+      "why": "Random draw from the Module 1 scope"
+    },
+    {
+      "id": "2025/0059(COD)",
+      "slug": "2025-0059-cod",
+      "type": "COD",
+      "category": "random",
+      "why": "Random draw from the Module 1 scope"
+    },
+    {
+      "id": "2026/2592(RPS)",
+      "slug": "2026-2592-rps",
+      "type": "RPS",
+      "category": "random",
+      "why": "Random draw from the Module 1 scope"
+    }
+  ],
+  "sampling": {
+    "seed": 20261019,
+    "cutoff": "2024-07-16",
+    "frame_rule": "EP-API /procedures je Art und Jahr: COD 2019-2026, DEA 2024-2026, RPS 2024-2026; ohne die 5 festen Faelle; sortiert, dann random.Random(seed).shuffle",
+    "frame_size": 1334,
+    "frame_totals": {
+      "COD-2019": 28,
+      "COD-2020": 92,
+      "COD-2021": 104,
+      "COD-2022": 108,
+      "COD-2023": 131,
+      "COD-2024": 34,
+      "COD-2025": 120,
+      "COD-2026": 53,
+      "DEA-2024": 196,
+      "DEA-2025": 167,
+      "DEA-2026": 143,
+      "RPS-2024": 62,
+      "RPS-2025": 61,
+      "RPS-2026": 40
+    },
+    "checked": [
+      {
+        "label": "2026/2663(DEA)",
+        "latest_event": "2026-03-25",
+        "in_scope": true
+      },
+      {
+        "label": "2025/0847(COD)",
+        "latest_event": "2026-07-16",
+        "in_scope": true
+      },
+      {
+        "label": "2023/0393(COD)",
+        "latest_event": "2024-11-14",
+        "in_scope": true
+      },
+      {
+        "label": "2026/2863(DEA)",
+        "latest_event": "2026-09-16",
+        "in_scope": true
+      },
+      {
+        "label": "2025/2829(RPS)",
+        "latest_event": "2025-09-10",
+        "in_scope": true
+      },
+      {
+        "label": "2025/0059(COD)",
+        "latest_event": "2026-10-15",
+        "in_scope": true
+      },
+      {
+        "label": "2026/2592(RPS)",
+        "latest_event": "2026-02-11",
+        "in_scope": true
+      }
+    ],
+    "picked": [
+      "2026/2663(DEA)",
+      "2025/0847(COD)",
+      "2023/0393(COD)",
+      "2026/2863(DEA)",
+      "2025/2829(RPS)",
+      "2025/0059(COD)",
+      "2026/2592(RPS)"
+    ],
+    "note": "First run on 2026-10-19 aborted on a transient HTTP 500 from the EP API; the run was repeated with the same seed and frame and the 500 no longer occurred. DEA from the register of delegated acts without an EP procedure are not in this frame (EP API only).",
+    "requests": [
+      {
+        "url": "https://data.europarl.europa.eu/api/v2/procedures?process-type=COD&year=2019&format=application%2Fld%2Bjson&offset=0&limit=500",
+        "status": 200,
+        "retrieved": "2026-10-19T18:18:02Z"
+      },
+      {
+        "url": "https://data.europarl.europa.eu/api/v2/procedures?process-type=COD&year=2020&format=application%2Fld%2Bjson&offset=0&limit=500",
+        "status": 200,
+        "retrieved": "2026-10-19T18:18:03Z"
+      },
+      {
+        "url": "https://data.europarl.europa.eu/api/v2/procedures?process-type=COD&year=2021&format=application%2Fld%2Bjson&offset=0&limit=500",
+        "status": 200,
+        "retrieved": "2026-10-19T18:18:05Z"
+      },
+      {
+        "url": "https://data.europarl.europa.eu/api/v2/procedures?process-type=COD&year=2022&format=application%2Fld%2Bjson&offset=0&limit=500",
+        "status": 200,
+        "retrieved": "2026-10-19T18:18:08Z"
+      },
+      {
+        "url": "https://data.europarl.europa.eu/api/v2/procedures?process-type=COD&year=2023&format=application%2Fld%2Bjson&offset=0&limit=500",
+        "status": 200,
+        "retrieved": "2026-10-19T18:18:10Z"
+      },
+      {
+        "url": "https://data.europarl.europa.eu/api/v2/procedures?process-type=COD&year=2024&format=application%2Fld%2Bjson&offset=0&limit=500",
+        "status": 200,
+        "retrieved": "2026-10-19T18:18:13Z"
+      },
+      {
+        "url": "https://data.europarl.europa.eu/api/v2/procedures?process-type=COD&year=2025&format=application%2Fld%2Bjson&offset=0&limit=500",
+        "status": 200,
+        "retrieved": "2026-10-19T18:18:15Z"
+      },
+      {
+        "url": "https://data.europarl.europa.eu/api/v2/procedures?process-type=COD&year=2026&format=application%2Fld%2Bjson&offset=0&limit=500",
+        "status": 200,
+        "retrieved": "2026-10-19T18:18:18Z"
+      },
+      {
+        "url": "https://data.europarl.europa.eu/api/v2/procedures?process-type=DEA&year=2024&format=application%2Fld%2Bjson&offset=0&limit=500",
+        "status": 200,
+        "retrieved": "2026-10-19T18:18:22Z"
+      },
+      {
+        "url": "https://data.europarl.europa.eu/api/v2/procedures?process-type=DEA&year=2025&format=application%2Fld%2Bjson&offset=0&limit=500",
+        "status": 200,
+        "retrieved": "2026-10-19T18:18:23Z"
+      },
+      {
+        "url": "https://data.europarl.europa.eu/api/v2/procedures?process-type=DEA&year=2026&format=application%2Fld%2Bjson&offset=0&limit=500",
+        "status": 200,
+        "retrieved": "2026-10-19T18:18:25Z"
+      },
+      {
+        "url": "https://data.europarl.europa.eu/api/v2/procedures?process-type=RPS&year=2024&format=application%2Fld%2Bjson&offset=0&limit=500",
+        "status": 200,
+        "retrieved": "2026-10-19T18:18:28Z"
+      },
+      {
+        "url": "https://data.europarl.europa.eu/api/v2/procedures?process-type=RPS&year=2025&format=application%2Fld%2Bjson&offset=0&limit=500",
+        "status": 200,
+        "retrieved": "2026-10-19T18:18:30Z"
+      },
+      {
+        "url": "https://data.europarl.europa.eu/api/v2/procedures?process-type=RPS&year=2026&format=application%2Fld%2Bjson&offset=0&limit=500",
+        "status": 200,
+        "retrieved": "2026-10-19T18:18:33Z"
+      },
+      {
+        "url": "https://data.europarl.europa.eu/api/v2/procedures/2026-2663?format=application%2Fld%2Bjson",
+        "status": 200,
+        "retrieved": "2026-10-19T18:18:38Z"
+      },
+      {
+        "url": "https://data.europarl.europa.eu/api/v2/procedures/2025-0847?format=application%2Fld%2Bjson",
+        "status": 200,
+        "retrieved": "2026-10-19T18:18:38Z"
+      },
+      {
+        "url": "https://data.europarl.europa.eu/api/v2/procedures/2023-0393?format=application%2Fld%2Bjson",
+        "status": 200,
+        "retrieved": "2026-10-19T18:18:42Z"
+      },
+      {
+        "url": "https://data.europarl.europa.eu/api/v2/procedures/2026-2863?format=application%2Fld%2Bjson",
+        "status": 200,
+        "retrieved": "2026-10-19T18:18:44Z"
+      },
+      {
+        "url": "https://data.europarl.europa.eu/api/v2/procedures/2025-2829?format=application%2Fld%2Bjson",
+        "status": 200,
+        "retrieved": "2026-10-19T18:18:47Z"
+      },
+      {
+        "url": "https://data.europarl.europa.eu/api/v2/procedures/2025-0059?format=application%2Fld%2Bjson",
+        "status": 200,
+        "retrieved": "2026-10-19T18:18:48Z"
+      },
+      {
+        "url": "https://data.europarl.europa.eu/api/v2/procedures/2026-2592?format=application%2Fld%2Bjson",
+        "status": 200,
+        "retrieved": "2026-10-19T18:18:55Z"
+      },
+      {
+        "url": "https://data.europarl.europa.eu/api/v2/procedures/2021-0106?format=application%2Fld%2Bjson",
+        "status": 200,
+        "retrieved": "2026-10-19T18:19:00Z"
+      },
+      {
+        "url": "https://data.europarl.europa.eu/api/v2/procedures/2025-0102?format=application%2Fld%2Bjson",
+        "status": 500
+      },
+      {
+        "url": "https://data.europarl.europa.eu/api/v2/procedures/2025-0102?format=application%2Fld%2Bjson",
+        "status": 200,
+        "retrieved": "2026-10-19T18:19:55Z"
+      },
+      {
+        "url": "https://data.europarl.europa.eu/api/v2/procedures/2025-0359?format=application%2Fld%2Bjson",
+        "status": 200,
+        "retrieved": "2026-10-19T18:19:57Z"
+      },
+      {
+        "url": "https://data.europarl.europa.eu/api/v2/procedures/2025-0360?format=application%2Fld%2Bjson",
+        "status": 200,
+        "retrieved": "2026-10-19T18:20:08Z"
+      },
+      {
+        "url": "https://data.europarl.europa.eu/api/v2/procedures/2026-2805?format=application%2Fld%2Bjson",
+        "status": 200,
+        "retrieved": "2026-10-19T18:20:08Z"
+      }
+    ]
+  }
+}

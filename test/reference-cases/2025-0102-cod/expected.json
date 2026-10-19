@@ -1,0 +1,113 @@
+{
+  "id": "2025/0102(COD)",
+  "slug": "2025-0102-cod",
+  "category": "fixed",
+  "why": "Critical Medicines Act, ongoing, all three institutions (Fall 2)",
+  "captured": "2026-10-19",
+  "expected": {
+    "ep_events": 25,
+    "ep_event_types": {
+      "COMMITTEE_ADOPTING_OPINION": 3,
+      "COMMITTEE_ADOPTING_REPORT": 1,
+      "COMMITTEE_APPROVE_PROVISIONAL_AGREEMENT": 1,
+      "COMMITTEE_TABLING_AMENDMENT": 3,
+      "COMMITTEE_TABLING_REPORT": 1,
+      "INTERINSTITUTIONAL_NEGOTIATION": 3,
+      "PLENARY_AMEND": 1,
+      "PLENARY_DEBATE": 1,
+      "PLENARY_REFER_COMMITTEE_INTERINSTITUTIONAL_NEGOTIATIONS": 1,
+      "PLENARY_VOTE": 1,
+      "PLENARY_VOTE_RESULTS": 1,
+      "REFERRAL": 1,
+      "TABLING_PLENARY": 7
+    },
+    "ep_first_event": {
+      "date": "2025-05-21",
+      "type": "REFERRAL"
+    },
+    "ep_last_event": {
+      "date": "2026-07-14",
+      "type": "COMMITTEE_APPROVE_PROVISIONAL_AGREEMENT"
+    },
+    "ep_current_stage": "RDG1",
+    "ep_lead_committees": [
+      "SANT"
+    ],
+    "ep_documents": [
+      "A-10-2025-0272",
+      "ENVI-AD-775606",
+      "ENVI-PA-775606",
+      "IMCO-AD-776854",
+      "IMCO-PA-776854",
+      "ITRE-AD-774586",
+      "ITRE-PA-774586",
+      "SANT-PR-775742",
+      "TA-10-2026-0001"
+    ],
+    "trilogue_dates": [
+      "2026-02-02",
+      "2026-03-16",
+      "2026-05-11"
+    ],
+    "cellar": {
+      "dossier_found": true,
+      "produced_act": null
+    },
+    "phase_a": {
+      "ref": "h3-17/01-marktanalyse/datenquellen.md, Fall 2 (2026-10-18), sources [36]-[39]",
+      "ep_events": 25,
+      "trilogue_meetings": [
+        "2026-02-02",
+        "2026-03-16",
+        "2026-05-11"
+      ],
+      "council_documents": {
+        "ST": 33,
+        "WK": 32,
+        "CM": 18,
+        "first": "ST 6872/25 (2025-03-12)",
+        "last": "ST 10915/2/26 REV 2 (2026-06-26)"
+      },
+      "com": "COM(2025)102",
+      "ep_register": "P10_A(2025)0272",
+      "ep_doc": "A-10-2025-0272",
+      "texts_adopted": "P10_TA(2026)0001 = CELEX 52026AP0001",
+      "plenary_vote_event": "MTG-PL-2026-01-20-VOT-ITM-981677",
+      "cellar_works": 107,
+      "cellar_file_status": "PROP_PENDING",
+      "council_gap_after": "2026-06-26",
+      "votes_note": "16 HowTheyVote votes on 2026-01-20 (main vote 183050). Not stored here: voting data are ODbL and belong to the votes/ test data in M2 (build rule B2-1)."
+    },
+    "hys_2026_10_19": {
+      "initiative": "14486",
+      "dg": "SANTE",
+      "publications": [
+        {
+          "type": "INIT_PLANNED",
+          "reference": "COM(2025)102",
+          "reference_number": "PLAN/2025/243"
+        },
+        {
+          "type": "CALL_FOR_EVIDENCE",
+          "reference": "Ares(2025)729902",
+          "feedback": 125,
+          "end": "2025-02-27"
+        },
+        {
+          "type": "PROP_REG",
+          "reference": "COM(2025)102",
+          "reference_number": "PO/2025/1518",
+          "adopted": "2025-03-11",
+          "feedback": 74,
+          "end": "2025-07-06"
+        },
+        {
+          "type": "SWD",
+          "reference": "Ares(2025)7127810",
+          "adopted": "2025-09-02"
+        }
+      ],
+      "note": "Feedback on the adopted proposal (PROP_REG, 74 items) has no consultation phase in schema v0.1 (proposal in entscheidungen.md)."
+    }
+  }
+}

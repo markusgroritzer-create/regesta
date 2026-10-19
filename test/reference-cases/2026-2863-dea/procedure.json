@@ -1,0 +1,125 @@
+{
+  "$schema": "https://regesta.io/schema/v0.1/procedure.schema.json",
+  "schema_version": "0.1.0",
+  "id": "2026/2863(DEA)",
+  "slug": "2026-2863-dea",
+  "type": "DEA",
+  "title": "Commission Delegated Regulation (EU) amending Regulation (EU) No 965/2012 as regards the flight and duty time limitations and rest requirements for air taxi, emergency medical services and single-pilot operations",
+  "status": "ongoing",
+  "institution_leads": {
+    "commission_dg": null,
+    "ep_committees": []
+  },
+  "provenance": {
+    "status": "official"
+  },
+  "sources": [
+    {
+      "source": "ep_api",
+      "url": "https://data.europarl.europa.eu/api/v2/procedures/2026-2863?format=application%2Fld%2Bjson",
+      "ref": "eli/dl/proc/2026-2863",
+      "retrieved": "2026-10-19T18:18:44Z",
+      "license": "CC-BY-4.0",
+      "legal_basis": "European Parliament Bureau decision of 16.12.2024 on open data, OJ C/2025/341, Art. 4"
+    }
+  ],
+  "license": "CC-BY-4.0",
+  "modified": false,
+  "valid_from": "manual-2026-10-19",
+  "valid_to": null,
+  "identifiers": [
+    {
+      "alias_type": "ep_proc",
+      "alias": "2026/2863(DEA)",
+      "provenance": {
+        "status": "official"
+      },
+      "sources": [
+        {
+          "source": "ep_api",
+          "url": "https://data.europarl.europa.eu/api/v2/procedures/2026-2863?format=application%2Fld%2Bjson",
+          "ref": "eli/dl/proc/2026-2863",
+          "retrieved": "2026-10-19T18:18:44Z",
+          "license": "CC-BY-4.0",
+          "legal_basis": "European Parliament Bureau decision of 16.12.2024 on open data, OJ C/2025/341, Art. 4"
+        }
+      ],
+      "license": "CC-BY-4.0",
+      "modified": false,
+      "valid_from": "manual-2026-10-19",
+      "valid_to": null
+    },
+    {
+      "alias_type": "ep_proc_id",
+      "alias": "2026-2863",
+      "provenance": {
+        "status": "official"
+      },
+      "sources": [
+        {
+          "source": "ep_api",
+          "url": "https://data.europarl.europa.eu/api/v2/procedures/2026-2863?format=application%2Fld%2Bjson",
+          "ref": "eli/dl/proc/2026-2863",
+          "retrieved": "2026-10-19T18:18:44Z",
+          "license": "CC-BY-4.0",
+          "legal_basis": "European Parliament Bureau decision of 16.12.2024 on open data, OJ C/2025/341, Art. 4"
+        }
+      ],
+      "license": "CC-BY-4.0",
+      "modified": false,
+      "valid_from": "manual-2026-10-19",
+      "valid_to": null
+    }
+  ],
+  "steps": [
+    {
+      "id": "2026-2863-ANPRO-2026-09-16",
+      "institution": "parliament",
+      "kind": "referral",
+      "source_kind": "REFERRAL",
+      "date": "2026-09-16",
+      "date_precision": "day",
+      "provenance": {
+        "status": "official"
+      },
+      "sources": [
+        {
+          "source": "ep_api",
+          "url": "https://data.europarl.europa.eu/api/v2/procedures/2026-2863?format=application%2Fld%2Bjson",
+          "ref": "eli/dl/event/2026-2863-ANPRO-2026-09-16",
+          "retrieved": "2026-10-19T18:18:44Z",
+          "license": "CC-BY-4.0",
+          "legal_basis": "European Parliament Bureau decision of 16.12.2024 on open data, OJ C/2025/341, Art. 4"
+        }
+      ],
+      "license": "CC-BY-4.0",
+      "modified": false,
+      "valid_from": "manual-2026-10-19",
+      "valid_to": null
+    }
+  ],
+  "documents": [],
+  "edges": [],
+  "gaps": [
+    {
+      "id": "2026-2863-dea-gap-c-code",
+      "institution": "commission",
+      "kind": "delegated_act_adopted",
+      "reason": "ep_dea_without_c_code",
+      "since": "2026-09-16",
+      "note": "EP procedure carries no Commission C number; matching by R6 follows in M2.",
+      "valid_from": "manual-2026-10-19",
+      "valid_to": null
+    }
+  ],
+  "people": "https://regesta.io/v1/procedures/2026-2863-dea/people",
+  "attribution": {
+    "text_de": "Daten: Regesta von Berth, CC BY 4.0. Bearbeitet aus Quellen der Europäischen Union (© Europäische Union: Europäisches Parlament, Europäische Kommission, Amt für Veröffentlichungen, Rat der EU). Abstimmungen: HowTheyVote.eu, ODbL 1.0. Keine amtliche Veröffentlichung. Quellen, Lizenzen und Haftungsausschluss: regesta.io/licences",
+    "text_en": "Data: Regesta by Berth, CC BY 4.0. Adapted from European Union sources (© European Union: European Parliament, European Commission, Publications Office, Council of the EU). Votes: HowTheyVote.eu, ODbL 1.0. Not an official publication. Sources, licences and disclaimer: regesta.io/licences",
+    "license": "CC-BY-4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "licenses_page": "https://regesta.io/licences",
+    "disclaimer_url": "https://regesta.io/licences#disclaimer",
+    "official": false
+  }
+}

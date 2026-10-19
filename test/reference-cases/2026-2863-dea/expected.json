@@ -1,0 +1,26 @@
+{
+  "id": "2026/2863(DEA)",
+  "slug": "2026-2863-dea",
+  "category": "random",
+  "why": "Random draw from the Module 1 scope",
+  "captured": "2026-10-19",
+  "expected": {
+    "ep_events": 1,
+    "ep_event_types": {
+      "REFERRAL": 1
+    },
+    "ep_first_event": {
+      "date": "2026-09-16",
+      "type": "REFERRAL"
+    },
+    "ep_last_event": {
+      "date": "2026-09-16",
+      "type": "REFERRAL"
+    },
+    "ep_current_stage": "RDG1",
+    "ep_lead_committees": [],
+    "ep_documents": [],
+    "trilogue_dates": [],
+    "status_note": "Status from the EP record only (no closing event). The end of the scrutiny period (R11) and the C number (R6) follow in M2; the status must be re-checked then."
+  }
+}

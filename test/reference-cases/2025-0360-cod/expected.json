@@ -1,0 +1,49 @@
+{
+  "id": "2025/0360(COD)",
+  "slug": "2025-0360-cod",
+  "category": "fixed",
+  "why": "Early in the procedure (Fall 2, comparison)",
+  "captured": "2026-10-19",
+  "expected": {
+    "ep_events": 11,
+    "ep_event_types": {
+      "COMMITTEE_TABLING_AMENDMENT": 9,
+      "COMMITTEE_TABLING_REPORT": 1,
+      "REFERRAL": 1
+    },
+    "ep_first_event": {
+      "date": "2026-01-19",
+      "type": "REFERRAL"
+    },
+    "ep_last_event": {
+      "date": "2026-07-27",
+      "type": "COMMITTEE_TABLING_AMENDMENT"
+    },
+    "ep_current_stage": "RDG1",
+    "ep_lead_committees": [
+      "LIBE",
+      "ITRE"
+    ],
+    "ep_documents": [
+      "CJ72-PR-786818",
+      "IMCO-PA-789877",
+      "JURI-PA-789142"
+    ],
+    "trilogue_dates": [],
+    "cellar": {
+      "dossier_found": true,
+      "produced_act": null
+    },
+    "phase_a": {
+      "ref": "datenquellen.md Fall 2 [36], [18]",
+      "ep_events": 11,
+      "last_event": "COMMITTEE_TABLING_AMENDMENT 2026-07-27",
+      "cellar_works": 65,
+      "council_documents": {
+        "ST": 16,
+        "WK": 25,
+        "CM": 9
+      }
+    }
+  }
+}

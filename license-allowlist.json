@@ -1,0 +1,5 @@
+{
+  "$comment": "Allowlist for dependency licences (06-recht.md 8.2 Nr. 3). GPL, LGPL, AGPL, MPL, EPL, SSPL, BUSL and all others only after approval by Manuel, entered under exceptions as \"name@version\": \"reason, date of approval\".",
+  "allowed": ["MIT", "ISC", "BSD-2-Clause", "BSD-3-Clause", "Apache-2.0", "0BSD", "CC0-1.0"],
+  "exceptions": {}
+}
