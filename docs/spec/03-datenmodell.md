@@ -58,7 +58,7 @@ Wird ein EP-DEA-Verfahren nachträglich einer C-Nummer zugeordnet, entsteht kein
 
 | Knotentyp | Pflichtfelder | Beispiel |
 |---|---|---|
-| `procedure` | `id`, `type` (COD/DEA/RPS), `title`, `status`, `institution_leads` (DG, EP-Ausschuss) | `2025/0102(COD)` |
+| `procedure` | `id`, `type` (COD/DEA/RPS), `title`, `status`, `institution_leads` (DG, EP-Ausschüsse als Liste `ep_committees`, weil gemeinsam federführende Ausschüsse vorkommen; entscheidungen.md, Entscheidung 21.10.2026 V6) | `2025/0102(COD)` |
 | `step` | `id`, `procedure`, `institution` (commission/parliament/council), `kind` (kontrolliertes Vokabular, Anhang A), `date`, `date_precision` | EP-Ereignis „Trilog“ 2026-02-02 |
 | `document` | `id` (kanonische Dokumentkennung), `institution`, `doc_type`, `date`, `url`, `access` (`public` / `limite` / `not_public`) | `ST 10713/26`, `access: limite` |
 | `legal_act` | `celex`, `eli`, `oj_ref`, `dates` (Inkrafttreten, Geltung, Umsetzungsfrist) | `32024R1689` |

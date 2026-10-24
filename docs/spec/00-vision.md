@@ -1,6 +1,6 @@
 # Vision Modul 1
 - Datum: 2026-10-18 · Phase B H3-17 · Produktname offen (Platzhalter ‹Produktname›, Vorschläge in 01-produktname.md)
-- Grundlagen: projektanweisung.txt (Ergänzung vom 18.10.2026, Entscheidungen 1–4); h3-17/01-marktanalyse/fuer-die-spezifikation.md (Funde 1–10); blocker.md (Auflagen 1–13)
+- Grundlagen: projektanweisung.md (Ergänzung vom 18.10.2026, Entscheidungen 1–4); h3-17/01-marktanalyse/fuer-die-spezifikation.md (Funde 1–10); blocker.md (Auflagen 1–13)
 
 ## Was Modul 1 ist
 

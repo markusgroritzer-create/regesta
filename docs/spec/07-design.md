@@ -1,6 +1,6 @@
 # Designsystem
 - Datum: 2026-10-18 · Phase B H3-17
-- Grundlagen: fuer-die-spezifikation.md Funde 4, 5, 8, 9; aerger.md 9.1, 9.5, 9.7; nutzer.md 6.2, 6.4; blocker.md Auflage 5 (keine Nähe zu EU-Organen), A21 (Emblem); projektanweisung.txt Entscheidung 4 (Hinweisstellen)
+- Grundlagen: fuer-die-spezifikation.md Funde 4, 5, 8, 9; aerger.md 9.1, 9.5, 9.7; nutzer.md 6.2, 6.4; blocker.md Auflage 5 (keine Nähe zu EU-Organen), A21 (Emblem); projektanweisung.md Entscheidung 4 (Hinweisstellen)
 - Gilt für die zwei Seitenarten (Startseite mit Suche, Verfahrensseite) und die Textseiten (Über die Daten, Status, Export/API, Doku, Datenschutz, Impressum, Zusage). Oberflächensprache Englisch (entscheidungen.md E18); Beispieltexte unten auf Englisch.
 
 ## 1. Haltung

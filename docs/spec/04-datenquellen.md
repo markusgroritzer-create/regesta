@@ -133,7 +133,7 @@ CSV-Datensätze der Oberfläche (`/core/api/front/datasets/draftMeasures`, 63,8 
 
 | Quelle | Grund | Fundstelle |
 |---|---|---|
-| ParlTrack | keine Lizenz belegt, Dumps veraltet; projektanweisung.txt schließt es aus | datenquellen.md 2.18 |
+| ParlTrack | keine Lizenz belegt, Dumps veraltet; projektanweisung.md schließt es aus | datenquellen.md 2.18 |
 | EUR-Lex-HTML, doceo, Legislative Train, EP-Ausschussseiten | AWS-WAF-Challenge (HTTP 202 ohne Inhalt); Cellar liefert dieselben Metadaten | aerger.md 1.1; blocker.md B6 |
 | EU Law Tracker als Datenquelle | Cellar-Ableitung, Backend nicht dokumentiert, keine eigene Lizenz; nur Prüfquelle für Stichproben | datenquellen.md 2.11; Auflage 13 |
 | `www.consilium.europa.eu` | 403 mit Browser-Check | Auflage 8; blocker.md B8 |

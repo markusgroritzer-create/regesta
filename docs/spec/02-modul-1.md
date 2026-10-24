@@ -1,6 +1,6 @@
 # Modul 1: exakter Umfang
 - Datum: 2026-10-18 · Phase B H3-17
-- Grundlagen: fuer-die-spezifikation.md (Funde 1–10), blocker.md (Auflagen 1–13), datenquellen.md (Abschnitte 1, 3–6), aerger.md (Abschnitt 9, [50]), nutzer.md (4.3, 6), kanaele.md (4, 5), wettbewerb.md (7, 8), projektanweisung.txt (Entscheidungen 1–4)
+- Grundlagen: fuer-die-spezifikation.md (Funde 1–10), blocker.md (Auflagen 1–13), datenquellen.md (Abschnitte 1, 3–6), aerger.md (Abschnitt 9, [50]), nutzer.md (4.3, 6), kanaele.md (4, 5), wettbewerb.md (7, 8), projektanweisung.md (Entscheidungen 1–4)
 - Verweise: Datenmodell 03-datenmodell.md, Quellen 04-datenquellen.md, Betrieb 05-architektur.md, Recht 06-recht.md, Grenze offen/bezahlt 10-offen-bezahlt-grenze.md, Wahl zwischen Varianten entscheidungen.md
 
 Maßstab: wenige Dinge, jedes exzellent. Alles, was hier nicht steht, wird in Modul 1 nicht gebaut.
@@ -85,6 +85,7 @@ Sammel-URLs (A5 `?ids=`, A8) sind zustandslos: Die Liste steht in der URL, nicht
 | `GET /v1/procedures/{kennung}/documents` | Dokumente mit Kennungen und Links |
 | `GET /v1/procedures/{kennung}/votes` | Abstimmungen (Teildatenbank, Lizenzfeld ODbL) |
 | `GET /v1/procedures/{kennung}/history` | alle Versionseinträge |
+| `GET /v1/procedures/{kennung}/people` | Rollen im Verfahren mit Personendaten (nur von den eigenen Servern, nie im Daten-Repo; Bauregel G1). Bau in M3 (entscheidungen.md, Entscheidung 21.10.2026 V10) |
 | `GET /v1/changes?since=&ids=&type=&cursor=` | Änderungen seit Datum (höchstens 90 Tage je Abfrage) |
 | `GET /v1/deadlines?days=30&ids=&type=` | Fristen der nächsten n Tage (höchstens 90) |
 | `GET /v1/identifiers/{kennung}` | Kennung auflösen: kanonische ID, Typ, alle Aliase |
