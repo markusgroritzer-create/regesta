@@ -72,3 +72,5 @@ Manuel Wechner, sole proprietor, trading as Berth · Berwang, Austria (full post
 Regesta is an independent service by Berth. It is not an official publication and is not operated, endorsed or reviewed by any institution of the European Union. The institutions' original documents prevail; every entry links to them.
 
 The European Commission and the Council of the European Union are not liable for any consequence stemming from the reuse of their documents in Regesta. The European Parliament is not responsible for this service.
+
+CLA test
